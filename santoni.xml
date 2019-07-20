@@ -10,12 +10,26 @@
 		
 		<!-- Kernel source -->
         <project path="kernel/xiaomi/msm8937"
-                name="LineageOS/android_kernel_xiaomi_msm8937"
-                revision="lineage-15.1" />
+                name="sailfish-santoni/android_kernel_xiaomi_msm8937"
+                revision="hybris-15.1" />
 		
 		<!-- Vendor/Proprietary blobs -->
-		<project path="vendor/xiaomi"
+        <project path="vendor/xiaomi"
                 name="TheMuppets/proprietary_vendor_xiaomi"
                 revision="lineage-15.1" />
+		
+        <!-- Hybris Boot -->
+        <project path="hybris/hybris-boot"
+                name="sailfish-santoni/hybris-boot"
+                revision="santoni" />
+		
+		<!-- SailfishOS -->
+	<project path="rpm/"
+                 name="sailfish-santoni/droid-hal-santoni" revision="master" />
+        <project path="hybris/droid-configs"
+		 name="sailfish-santoni/droid-config-santoni" revision="master" />
+        <project path="hybris/droid-hal-version-santoni"
+		 name="sailfish-santoni/droid-hal-version-santoni" revision="master" />
+		
 </manifest>
 
